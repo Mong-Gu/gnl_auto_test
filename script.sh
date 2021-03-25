@@ -31,3 +31,14 @@ git clone https://github.com/mrjvs/42cursus_gnl_tests.git 42cursus_gnl_test
 cd 42cursus_gnl_test
 cat Makefile | sed -i .backup "s/\.\/get_next_line/\.\.\//g" Makefile
 make bonus
+
+slepp .5
+echo -e "\n\033[1;31m******************** Test 4: GNL_lover ********************"
+echo -e "\033[1;33m******* ref: https://github.com/charMstr/GNL_lover ********\033[0m\n"
+sleep 1
+cd ..
+git clone https://github.com/charMstr/GNL_lover.git GNL_lover
+cd GNL_lover
+cp ../get_next_line* ./copy_in_here_GNL_files
+./GNL_lover.sh
+
