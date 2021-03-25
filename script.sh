@@ -33,17 +33,7 @@ cat Makefile | sed -i .backup "s/\.\/get_next_line/\.\.\//g" Makefile
 make bonus
 
 sleep 1
-echo -e "\n\033[1;31m******************** Test 4: GNL_lover ********************"
-echo -e "\033[1;33m******* ref: https://github.com/charMstr/GNL_lover ********\033[0m\n"
-sleep 2.5
-cd ..
-git clone https://github.com/charMstr/GNL_lover.git GNL_lover
-cd GNL_lover
-cp ../get_next_line* ./copy_in_here_GNL_files
-./GNL_lover.sh
-
-sleep 1
-echo -e "\n\033[1;31m*************** Test 5: gnl-war-machine-v2019 ***************"
+echo -e "\n\033[1;31m*************** Test 4: gnl-war-machine-v2019 ***************"
 echo -e "\033[1;33m****** original author : https://github.com/hallainea *******"
 echo -e "*** ref : https://github.com/C4r4c0l3/gnl-war-machine-v2019 ***\033[0m\n"
 sleep 2.5
@@ -52,3 +42,13 @@ git clone https://github.com/C4r4c0l3/gnl-war-machine-v2019 gnl-war-machine
 cd gnl-war-machine
 cat my_config.sh | sed -i .backup "s/\.\.\/\.\.\/get_next_line/\.\.\/\.\.\/gnl/g" my_config.sh
 bash grademe.sh
+
+sleep 1
+echo -e "\n\033[1;31m******************** Test 5: GNL_lover ********************"
+echo -e "\033[1;33m******* ref: https://github.com/charMstr/GNL_lover ********\033[0m\n"
+sleep 2.5
+cd ..
+git clone https://github.com/charMstr/GNL_lover.git GNL_lover
+cd GNL_lover
+cp ../get_next_line* ./copy_in_here_GNL_files
+./GNL_lover.sh
