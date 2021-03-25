@@ -2,7 +2,7 @@
 
 cp ../gnl/* .
 
-echo "******************** Test 1: gnl killer ********************"
+echo -e "\n\033[0;31m******************** Test 1: gnl killer ********************\033[0m"
 sleep 1
 git clone https://github.com/DontBreakAlex/gnlkiller.git gnlkiller
 cd gnlkiller
@@ -14,6 +14,6 @@ chmod 777 result.sh
 ./result.sh
 
 sleep .5
-echo -e "\n******************** Test 2: 42TESTERS-GNL ********************"
+echo -e "\n\033[0;31m******************** Test 2: 42TESTERS-GNL ********************\033[0m"
 sleep 1
 
