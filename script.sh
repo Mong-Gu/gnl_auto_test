@@ -16,4 +16,6 @@ chmod 777 result.sh
 sleep .5
 echo -e "\n\033[0;31m******************** Test 2: 42TESTERS-GNL ********************\033[0m"
 sleep 1
-
+git clone https://github.com/Mazoise/42TESTERS-GNL.git 42TESTERS-GNL
+cd 42TESTERS-GNL
+bash all_tests_with_bonus.sh
