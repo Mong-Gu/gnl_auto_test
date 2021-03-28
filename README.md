@@ -33,12 +33,12 @@
 
    - The tester for each number is as follows:
 
-     1. gnlKiller
-     2. 42TESTERS-GNL
-     3. 42cursus_gnl_tests
-     4. gnl-war-machine-v2019
-     5. gnlTester
-     6. GNL_lover
+     - 1: gnlKiller
+     - 2: 42TESTERS-GNL
+     - 3: 42cursus_gnl_tests
+     - 4: gnl-war-machine-v2019
+     - 5: gnlTester
+     - 6: GNL_lover
 
    - For example, if one factor is specified as `1`, only the gnlKiller will operate.
 
