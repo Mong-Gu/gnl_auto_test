@@ -85,19 +85,19 @@
 
    - 각 넘버에 해당하는 테스터는 다음과 같습니다.
 
-     1. gnlKiller
-     2. 42TESTERS-GNL
-     3. 42cursus_gnl_tests
-     4. gnl-war-machine-v2019
-     5. gnlTester
-     6. GNL_lover
+     - 1: gnlKiller
+     - 2: 42TESTERS-GNL
+     - 3: 42cursus_gnl_tests
+     - 4: gnl-war-machine-v2019
+     - 5: gnlTester
+     - 6: GNL_lover
 
-     - 예를 들어 인자 하나를 `1`로 지정할 경우, gnlKiller만 동작합니다.
+   - 예를 들어 인자 하나를 `1`로 지정할 경우, gnlKiller만 동작합니다.
 
-       > ex. `./script.sh 1`
+     > ex. `./script.sh 1`
 
-     - 예를 들어 인자를 `3`과 `5` 두 개로 지정할 경우, 42cursus_gnl_tests와 gnlTester가 동작합니다.
+   - 예를 들어 인자를 `3`과 `5` 두 개로 지정할 경우, 42cursus_gnl_tests와 gnlTester가 동작합니다.
 
-       > ex. `./script.sh 3 5`
+     > ex. `./script.sh 3 5`
 
 4. `remover.sh` 를 실행시키면 'gnl_auto_test' 디렉토리에서 `README.md`와 `remover.sh`, `script.sh`를 제외한 모든 디렉토리 및 파일이 제거됩니다.
